@@ -1,0 +1,2 @@
+# SurviveBash
+Play this game and learn Bash. When you start you have to learn to use cd. Download git bash first. Next, learn the ls command. The ls command basically displays all the files in the repository. After that, learn the cd command. It allows you to enter another folder. If you are inside your user and want to enter your desktop you would do cd Desktop. Do that and keep on entering folders until you enter the SurviveBash folder. Then use the cat command to display the text in Begin. Start your way through the game!

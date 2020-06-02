@@ -1,0 +1,17 @@
+Now you have to wait for your graffiti
+to dry! Don't worry, if you follow
+the following procedures then you
+will be able to dry it much faster:
+ - Type in git status inside the
+   command line. It will show
+   changes you have made.
+ - Next, you want to make git keep
+   track of your file's changes. To
+   do this just type in git add and
+   the file name. In this case it is
+   git add Graffiti.
+ - After that, you have to commit the
+   changes to the master. If you want
+   to commit the changes to the master
+   run:
+   git commit -m 'Description'

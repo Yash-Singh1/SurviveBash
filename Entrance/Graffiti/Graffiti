@@ -1,0 +1,18 @@
+You see a wall with graffitti. You
+probably want to contribute to it. Read
+first then start doing it or else you
+will mess up on your marks in history!
+If you want to contribute to it, type
+in vim Graffiti. This will open a text
+editor that allows you to edit this file.
+Press i and add in your mark on a new line. Next,
+press SHIFT + ; and type in wq! and
+hit ENTER. FYI, if you don't want to save
+your changes, just do q! instead of wq!.
+
+
+Look at all this graffitti:
+
+HELLO
+How are YOU DOING?
+You  ... WOWW!

@@ -1,0 +1,5 @@
+You see a large pot of gold. As you approach it, suddenly a group of barbarians, armed, and homeless come to you.
+They threaten to execute you if you don't create a house for them. Lucky for you the command line has a command
+that allows you to create folders/directories. It is called mkdir and it stands for mk: make, dir: directory.
+Type in mkdir House. When you run ls, you will find a new folder called House inside this folder. If you want
+to go back a folder just type in cd .. 

@@ -4,4 +4,4 @@ the following commands:
  - git config --global user.name 'first_name last_name'
  - git config --global user.email youremail@yourdomain.com
 Notice how the name is in quotes. We call this data type a string. It is used sometimes inside other programming languages to represent
-a piece of text. Once you are done configuring your name and email just use cd .. to move back one directory and continue with other paths.
+a piece of text.

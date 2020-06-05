@@ -1,8 +1,9 @@
 Welcome to SurviveBash,
 Before you start you have to use the cd command to open a room. For example, say you are in your Desktop and want to open a folder called MyFolder that you put inside it.
 You can just do the following command to open MyFolder when you are in the desktop: cd MyFolder. It is that simple. If the folder or file name has a space in it, then put it in quotes.
-Next, learn to use the cat command to read a message. Say you have a hello.txt file inside your Desktop. First of all, make sure Desktop is open. Next, just type in cat hello.txt.
-ls is used when you want to view what all the files and folders `inside this folder is.
+Next, learn to use the cat command to read a message. Say you have a hello.txt file inside your Desktop. First of all, make sure Desktop is open. Next, just type in cat hello.txt. If
+you want to view the content of a file in a more interactive way within the terminal then you can use the less command instead of the cat command. Press q when you want to exit the view.
+ls is used when you want to view what all the files and folders `inside this folder is. If you want even more detail and information, type in ls -l.
 While you are typing in a file or folder name you can hit TAB to autocomplete it. Another tip is if you want to go back to your user, you can just type in cd.
 
 Have some fun!

@@ -1,0 +1,3 @@
+Lets take a look at where we are located right now on the map. If you want to see in which room you are you have to type in pwd.
+Pwd stands for present working directory and shows which directory you are in right now. Once you are done viewing the map, you can
+type in cd .. to move back one directory.

@@ -1,3 +1,4 @@
 This is a quick and simple commmand. If you want to print the string that you just said then you can use the echo command.
 For example, if you want to print hello then you can just type in echo hello. If there is a space inside the string that you are echoing
 then put it in quotes. You can also concatenate enviorment variables in. Here is an example, echo 'The path is $PATH'.
+Alternatively you can echo the variable itself, echo $PATH.

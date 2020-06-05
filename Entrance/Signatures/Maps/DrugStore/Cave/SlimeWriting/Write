@@ -1,0 +1,13 @@
+Welcome to the SlimeWriting room. You don't want to get eaten by goo! Quickly write in your own content into a file.
+Over here we are going to learn the > and >> usages in bash commands. Say we want to write a txt file called slime with
+contents. We can write echo 'slime' >> slime.txt. Basically this puts in the content 'slime' into a new slime.txt file.
+If we want to insert another line saying 'hi' then we could do echo 'hi' >> slime.txt. Alternatively if we want to remove
+all the contents of this slime file and replace it with 'Hey' then we could use > and execute echo 'Hey' > slime.txt.
+Instead of echo we can also use other commands. If we want to put in the content of ls -al into slime.txt then we could do
+ls -al > slime.txt. This is the end of the path. There are four ways for running a bash script.
+The first way executes it in a new shell process provided that it is in the current directory. In this case it would work
+like ./goBack.sh. That won't work because it starts a new shell process not allowing you to run it. If you write the script
+name it self like goBack.sh then it will run provided that it is located in $PATH. This is usually not the case. Sometimes
+it is when you add it into the Advanced Program Settings. source goBack.sh is what we need. It wants the script in $PATH or
+inside the current directory. The file doesn't need to be executable but needs to be a valid shell script. If you do . goBack.sh
+then it will think of it as source goBack.sh. Bash stores . as an alias for source.

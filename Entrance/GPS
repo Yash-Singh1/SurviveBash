@@ -1,4 +1,5 @@
 We are providing you with a GPS that will help you locate where a command's file is located.
 If you want to find where a command is located on your machine, just type in which <command>.
 For example, say you want to know where the ls command is located. Just type in which ls and
-it will display the ls command's file path. Good luck finding your route!
+it will display the ls command's file path.
+Good luck finding your route!

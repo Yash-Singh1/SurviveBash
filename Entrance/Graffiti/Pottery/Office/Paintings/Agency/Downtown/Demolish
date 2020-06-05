@@ -1,0 +1,4 @@
+The nearby residents threaten to attack you if you don't demolish their old house for them. They can't afford the dynamite.
+Lucky for you, the command line has a command that simply does that to directories. The command is rmdir <directory>. For example,
+in this case you would have to rmdir OldHouse. The rmdir command only works on empty directories without other directories.
+If you want to remove a directory that is not empty then use the rm -rf command instead of rmdir.

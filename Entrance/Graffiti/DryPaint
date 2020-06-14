@@ -1,17 +1,14 @@
-Now you have to wait for your graffiti
-to dry! Don't worry, if you follow
-the following procedures then you
-will be able to dry it much faster:
- - Type in git status inside the
-   command line. It will show
-   changes you have made.
- - Next, you want to make git keep
-   track of your file's changes. To
-   do this just type in git add and
-   the file name. In this case it is
-   git add Graffiti.
- - After that, you have to commit the
-   changes to the master. If you want
-   to commit the changes to the master
-   run:
-   git commit -m 'Description'
+Now you have to wait for your graffiti to dry! This section covers some simple git commands and terms.
+First of all, you need to know what a repository is. A repository is basically a directory that contains
+other directories and files on git. Git is a version control system that allows you to save what you are doing.
+For example, some big companies use git to store their code on the cloud with version control just in case of an
+emergency. Git is completely free and open-source. Also, you need to know a few terms used when using it.
+"Tracking" a file means git is keeping track of changes, deletions, and insertions of that file. It is best
+to just keep track of all the files. However, in some scenarios you shouldn't. To keep track of all files and
+directories inside a repository just type in git add -A. Also, to keep track of only some just type in git add and the file
+or directory name. Say you have a folder in your computer which you want to turn into a repository. Then do git init on it.
+When you are releasing your repository online then just use Github, Bitbucket, Gitland, or something else. When you want to commit your changes then
+do git commit -m 'You description here'. Next, if you want to push your commits then use git push or git push origin. Sometimes you need to
+git commits from the origin and base your commits on top of that. Then use git pull --rebase. The origin is where the git repository
+is stored as a repository. If you want to get everything from the origin you can use git fetch origin or git fetch. Don't try this on
+your computer or a bunch of errors will appear and something wrong might happen.

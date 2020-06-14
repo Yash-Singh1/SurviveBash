@@ -1,0 +1,14 @@
+If you haven't done the path starting through the Signatures yet then run this in the command line:
+. goBack.sh
+Over here you will be learning about aliases and .bachrc. To start, type in cd in the command line to get back to your user directory.
+Next type in notepad .bashrc if you are on Windows and for Mac type in:
+touch ~/.bashrc
+nano ~/.bashrc
+Now lets create an alias to make our commands easier. An alias is a custom command that replaces a longer command.
+To create an alias type in the following:
+alias ll = 'ls -al'
+Now if you save and close and execute ll in the command line, the equivalent to ls -al will appear showing all of the directories and files
+in the user directory. .bashrc is a great way of simplifying your experience in the terminal.
+Now you are done with SurviveBash. I hope you had a fun time playing!
+
+Developed by Yash Singh.

@@ -1,0 +1,7 @@
+We are providing you a portable bed to use. To use your portable bed you have to use the bash command sleep.
+The sleep command allows you to make your terminal wait for a certain amount of time. It is more useful in scripting
+then terminal but can still be used. To use it you have to type in sleep a number of days, and a d, a number of hours, a h,
+a number of minutes, a m, and a number of seconds and a s. Here is an example that waits 5 days 3 hours, 43 minutes, and 7 seconds:
+sleep 5d 3h 43m 7s
+This example waits for 1 second:
+sleep 1s

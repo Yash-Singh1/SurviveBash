@@ -6,8 +6,8 @@ all the contents of this slime file and replace it with 'Hey' then we could use 
 Instead of echo we can also use other commands. If we want to put in the content of ls -al into slime.txt then we could do
 ls -al > slime.txt. This is the end of the path. There are four ways for running a bash script.
 The first way executes it in a new shell process provided that it is in the current directory. In this case it would work
-like ./goBack.sh. That won't work because it starts a new shell process not allowing you to run it. If you write the script
-name it self like goBack.sh then it will run provided that it is located in $PATH. This is usually not the case. Sometimes
-it is when you add it into the Advanced Program Settings. source goBack.sh is what we need. It wants the script in $PATH or
-inside the current directory. The file doesn't need to be executable but needs to be a valid shell script. If you do . goBack.sh
-then it will think of it as source goBack.sh. Bash stores . as an alias for source.
+like ./goBack. That won't work because it starts a new shell process not allowing you to run it. If you write the script
+name it self like goBack then it will run provided that it is located in $PATH. This is usually not the case and is not the case now.
+source goBack is what we need. It wants the script in $PATH or
+inside the current directory. The file doesn't need to be executable but needs to be a valid shell script. If you do . goBack
+then it will think of it as source goBack. Bash stores . as an alias for source. Write now, either use . goBack or source goBack.
